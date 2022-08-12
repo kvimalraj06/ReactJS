@@ -1,0 +1,45 @@
+.seasonDisplay{
+    height:100vh;
+    overflow-x: scroll;
+}
+
+.winter{
+    background: aliceblue;
+}
+
+.summer{
+    background-color: orange;
+}
+
+.icon-left{
+    position: absolute;
+    top: 20px;
+    left: 10px;
+}
+
+.icon-right{
+    position: absolute;
+    bottom: 10px;
+    right:10px
+}
+
+.season-text{
+    font-family: sensei;
+    font-weight: 300;
+    z-index: 20;
+    color: white;
+    text-shadow: 2px 2px 4px rgb(102, 102, 102);
+    font-size: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+
+.summer i{
+    color: crimson;
+}
+
+.winter i{
+    color:cornflowerblue;
+}
